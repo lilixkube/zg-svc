@@ -1,6 +1,6 @@
-terraform {
-  backend "s3" {}
-}
+// terraform {
+//   backend "s3" {}
+// }
 module "zf1" {
 //    source = "../module/ec2"
     source = "git::https://github.com/lilixkube/zg-svc.git//module/ec2"
